@@ -1,13 +1,12 @@
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-// import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class ans {
+public class Link_count {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         int[] arr1 = { 25, 324, 652, 670, 1416, 1531, 290, 326, 569, 594, 736, 770, 864, 893, 902, 904, 954, 983, 1004,
