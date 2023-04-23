@@ -9,6 +9,82 @@ import java.util.Scanner;
 public class Link_count {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
+        //read file and add it in array
+        File filex = new File("D:\\Study\\Sem-6\\SNA\\Sna_final\\wikipedia-credibility\\Community\\page_leiden.txt");
+        BufferedReader brx = new BufferedReader(new FileReader(filex));
+        String stx;
+        int ix = 0;
+        int countx=0;
+        // int[] arr1 = new int[1000];
+        // int[] arr2 = new int[1000];
+        // int[] arr3 = new int[1000];
+        // int[] arr4 = new int[1000];
+        // int[] arr5 = new int[1000];
+        // int[] arr6 = new int[1000];
+        // // while ((stx = brx.readLine()) != null) {
+        //     //sepreat by , 
+        //     String[] arrOfStrx = stx.split(",");
+        //     //add in array
+        //     if(Integer.parseInt(stx)==-1 && countx==0){
+        //         ix++;
+        //         countx++;
+        //     }
+        //     else{
+        //         arr1[ix]=Integer.parseInt(stx);
+        //         ix++;
+        //     }
+
+        //      if(Integer.parseInt(stx)==-1 && countx==1){
+        //         arr2[ix]=Integer.parseInt(stx);
+        //         ix++;
+        //     }
+        //     else{
+        //         arr1[ix]=Integer.parseInt(stx);
+        //         ix++;
+        //     }
+        //      if(Integer.parseInt(stx)==-1 && countx==2){
+        //         arr3[ix]=Integer.parseInt(stx);
+        //         coun
+        //         ix++;
+        //     }
+        //     else{
+        //         arr1[ix]=Integer.parseInt(stx);
+        //         ix++;
+        //     }
+        //      if(Integer.parseInt(stx)==-1 && countx==3){
+        //         arr4[ix]=Integer.parseInt(stx);
+        //         countx++;
+        //         ix++;
+        //     }
+        //     else{
+        //         arr1[ix]=Integer.parseInt(stx);
+        //         ix++;
+        //     }
+        //      if(Integer.parseInt(stx)==-1 && countx==4){
+        //         arr5[ix]=Integer.parseInt(stx);
+        //         countx++;
+        //         ix++;
+        //     }
+        //     else{
+        //         arr1[ix]=Integer.parseInt(stx);
+        //         ix++;
+        //     }
+        //      if(Integer.parseInt(stx)==-1 && countx==5){
+        //         arr6[ix]=Integer.parseInt(stx);
+        //         countx++;
+        //         ix++;
+        //     }
+        //     else{
+        //         arr6[ix]=Integer.parseInt(stx);
+        //         ix++;
+        //     }
+
+            
+        // }
+        
+
+
+
         int[] arr1 = { 25, 324, 652, 670, 1416, 1531, 290, 326, 569, 594, 736, 770, 864, 893, 902, 904, 954, 983, 1004,
                 1014, 1078, 1164, 1176, 1208, 1288, 1493, 595, 650, 655, 701, 909, 913, 917, 948, 1010, 1046, 1047,
                 1122, 1136, 1154, 1175, 1183, 1246, 1254, 1259, 1328, 1332, 1381, 1397, 1541, 307, 308, 339, 570, 737,
